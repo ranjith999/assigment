@@ -1,5 +1,5 @@
 runtime: python312
-
 handlers:
-- url: /generate_primes
-  script: main.app
+- url: /primes
+  script: prime_number_generator.py
+
