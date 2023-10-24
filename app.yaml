@@ -1,2 +1,5 @@
 runtime: python312
-entrypoint: python index.py
+
+handlers:
+- url: /generate_primes
+  script: main.app
