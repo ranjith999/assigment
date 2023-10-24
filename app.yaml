@@ -1,5 +1,2 @@
 runtime: python312
-
-handlers:
-- url: /
-  script: index.py
+entrypoint: python index.py
